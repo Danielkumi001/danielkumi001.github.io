@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080d19">
+<meta name="description" content="Daniel Kumi (Hpluse de Younger) — Mechanical Engineering student, cadet leader, volunteer and creative enthusiast.">
+<title>Daniel Kumi | Personal Portfolio</title>
+<style>
+:root{--bg:#080d19;--card:#101a2c;--blue:#3194ff;--light:#78baff;--white:#f4f7ff;--muted:#b0bdd2;--border:#25344b}
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.7}
+a{color:inherit;text-decoration:none} .container{width:90%;max-width:1120px;margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(8,13,25,.97);border-bottom:1px solid var(--border)}
+.navbar{padding:14px 0;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.logo{font-weight:900;font-size:24px}.blue{color:var(--blue)}
+.nav-links{display:flex;flex-wrap:wrap;gap:8px 15px}.nav-links a{font-size:14px;color:var(--muted)}.nav-links a:hover{color:var(--light)}
+section{padding:76px 0;scroll-margin-top:130px}
+.hero{padding:75px 0;background:radial-gradient(ellipse at 90% 35%,#102c50,transparent 50%),var(--bg)}
+.hero-grid{display:grid;grid-template-columns:1.5fr .8fr;gap:35px;align-items:center}
+.eyebrow{font-size:13px;font-weight:bold;letter-spacing:3px;text-transform:uppercase;color:var(--light);margin-bottom:14px}
+h1{font-size:clamp(42px,7vw,74px);line-height:1.15;margin-bottom:16px;letter-spacing:-1.5px}
+h2{font-size:clamp(30px,5vw,42px);line-height:1.2;margin-bottom:18px}h3{font-size:21px;line-height:1.4;margin-bottom:10px}
+p{color:var(--muted);margin-bottom:15px}.subtitle{font-size:clamp(18px,3vw,24px);font-weight:bold;color:#dce8fb;margin-bottom:20px}
+.hero-description{font-size:18px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{display:inline-flex;justify-content:center;align-items:center;background:var(--blue);color:white;border:1px solid var(--blue);padding:12px 18px;border-radius:9px;font-weight:bold;cursor:pointer}
+.btn-outline{background:transparent;color:var(--white)}.btn:hover{filter:brightness(1.12)}
+.photo-box{aspect-ratio:4/5;max-width:300px;width:100%;justify-self:center;border:1px solid #31547b;border-radius:20px;background:linear-gradient(145deg,#152a45,#0a1020);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px}
+.photo-icon{font-size:72px}.section-heading{max-width:760px;margin-bottom:32px}.section-heading p{font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;overflow-wrap:anywhere;min-width:0}
+.icon{font-size:29px;margin-bottom:10px}.tag{color:var(--light);font-weight:bold;font-size:14px;display:inline-block;margin-bottom:10px}
+.soft{background:#0b1220;border-top:1px solid #17253a;border-bottom:1px solid #17253a}
+.timeline{display:grid;gap:22px}.timeline-item{border-left:3px solid var(--blue);padding-left:20px}.date{color:var(--light);font-size:14px;font-weight:bold}
+.pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:15px}.pill{background:#152742;border:1px solid #2c4566;color:#d8e8ff;border-radius:30px;padding:6px 12px;font-size:14px}
+.info{list-style:none}.info li{padding:7px 0;color:var(--muted);border-bottom:1px solid #ffffff0c}.info strong{color:var(--white)}
+.contact-box{background:linear-gradient(135deg,#112947,#101a2c);border:1px solid #2b4b70;border-radius:18px;padding:25px}
+.contact-item{margin:16px 0;overflow-wrap:anywhere}.contact-item strong{display:block;color:var(--light)}
+.social-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.social-link{display:block;padding:14px;background:var(--card);border:1px solid var(--border);border-radius:11px}.social-link strong{display:block}.social-link span{font-size:13px;color:var(--muted)}.social-link:hover{border-color:var(--blue)}
+.note{font-size:13px;color:#8fa3be}footer{text-align:center;padding:25px 0;background:#060a12;border-top:1px solid var(--border)}footer p{margin:0;font-size:14px}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.photo-box{grid-row:1;max-width:230px;aspect-ratio:1/1}.grid{grid-template-columns:1fr}.navbar{align-items:flex-start}.nav-links{width:100%}}
+@media(max-width:460px){section{padding:58px 0}.container{width:91%}.btn{width:100%}.social-grid{grid-template-columns:1fr}.card{padding:20px}}
+</style>
+</head>
+<body>
+<header><div class="container navbar">
+<a class="logo" href="#home">DANIEL<span class="blue">KUMI.</span></a>
+<nav class="nav-links" aria-label="Main navigation">
+<a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#achievements">Achievements</a><a href="#volunteering">Volunteering</a><a href="#skills">Skills</a><a href="#creative">Creative Work</a><a href="#goals">Goals</a><a href="#contact">Contact</a>
+</nav></div></header>
+<main>
+<section class="hero" id="home"><div class="container hero-grid"><div>
+<div class="eyebrow">Welcome to my personal portfolio</div><h1>Daniel <span class="blue">Kumi</span></h1>
+<div class="subtitle">Mechanical Engineering Student | Cadet Leader | Volunteer | Creative</div>
+<p class="hero-description">I am a Mechanical Engineering student at Accra Technical University with a passion for engineering, leadership, volunteering, music, photography and videography. I believe in continuous learning, personal growth and using my skills to make a positive difference in society.</p>
+<div class="buttons"><a class="btn" href="#about">Discover My Journey</a><a class="btn btn-outline" href="#contact">Contact Me</a><button class="btn btn-outline" onclick="downloadCV()">Download My CV</button></div>
+</div><div class="photo-box"><div class="photo-icon">👤</div><h3>Daniel Kumi</h3><p>Hpluse de Younger</p><small class="note">Profile photo can be added later</small></div></div></section>
+<section id="about"><div class="container"><div class="section-heading"><div class="eyebrow">Get to know me</div><h2>About <span class="blue">Me</span></h2><p>My background, values and the person I am working to become.</p></div>
+<div class="grid">
+<article class="card"><div class="icon">👋</div><h3>Who I Am</h3><p>My name is Daniel Kumi, also known by my creative name Hpluse de Younger. I am a Ghanaian Mechanical Engineering student interested in technical innovation, leadership, volunteering and creative media.</p></article>
+<article class="card"><div class="icon">🌍</div><h3>Personal Background</h3><ul class="info"><li><strong>Nationality:</strong> Ghanaian</li><li><strong>Region of origin:</strong> Western Region</li><li><strong>Hometown:</strong> Wassa Adansi</li><li><strong>Current location:</strong> Accra, Ghana</li><li><strong>Languages:</strong> Wassa, Asante Twi and English</li></ul></article>
+<article class="card"><div class="icon">🎯</div><h3>My Purpose</h3><p>I created this portfolio to showcase my education, experience, achievements, interests and personal growth, while building a professional identity and connecting with opportunities.</p></article>
+<article class="card"><div class="icon">⭐</div><h3>What Makes Me Different</h3><p>I am willing to learn, take responsibility and combine technical knowledge with creativity, teamwork, leadership and service to others.</p><div class="pills"><span class="pill">Ambitious</span><span class="pill">Creative</span><span class="pill">Resilient</span></div></article>
+</div></div></section>
+<section class="soft" id="education"><div class="container"><div class="section-heading"><div class="eyebrow">My learning journey</div><h2>Education & <span class="blue">Training</span></h2></div><div class="timeline">
+<div class="timeline-item"><div class="date">Primary Education</div><h3>PAMO International School</h3><p>Twifo Praso, Ghana. Recognised as Best Cultural Dancer of the Year in 2014.</p></div>
+<div class="timeline-item"><div class="date">2018–2020</div><h3>Saint Barnabas Anglican JHS</h3><p>Twifo Praso, Ghana. Served as First Assistant Grounds Prefect and helped establish the Evergreen Club to promote garden maintenance and a cleaner school environment.</p></div>
+<div class="timeline-item"><div class="date">2021–2023</div><h3>Asuansi Technical Institute</h3><p>Studied Mechanical Engineering Technology and developed an interest in practical technical work.</p></div>
+<div class="timeline-item"><div class="date">2025–Present</div><h3>Accra Technical University</h3><p>BTech Mechanical Engineering. Currently at Level 300.</p><span class="tag">Expected graduation: 2028</span></div>
+</div></div></section>
+<section id="experience"><div class="container"><div class="section-heading"><div class="eyebrow">Leadership and practical experience</div><h2>Experience & <span class="blue">Leadership</span></h2><p>I value responsibility, teamwork, discipline and opportunities to contribute through service.</p></div><div class="grid">
+<article class="card"><div class="icon">🎖️</div><h3>Air Force Cadet Regimental Band Conductor</h3><span class="tag">Accra Technical University | 2025–Present</span><p>I serve as a Regimental Band Conductor within the Air Force Cadet organisation. This role supports my development in discipline, coordination, teamwork and leadership.</p></article>
+<article class="card"><div class="icon">🇬🇭</div><h3>Independence Day Parade</h3><p>Participated with the Ghana Armed Forces cadet team during the 6th March Independence Day parade as a Regimental Band Conductor.</p></article>
+<article class="card"><div class="icon">🔧</div><h3>Mechanical Engineering Internship</h3><span class="tag">Toyota Ghana, East Legon | Oct–Nov 2025</span><p>Gained exposure to the automotive environment and learned more about vehicles and practical mechanical engineering.</p></article>
+<article class="card"><div class="icon">🌱</div><h3>First Assistant Grounds Prefect</h3><p>Supported school grounds activities and helped establish the Evergreen Club to encourage gardening and a clean school environment.</p></article>
+</div></div></section>
+<section class="soft" id="achievements"><div class="container"><div class="section-heading"><div class="eyebrow">Milestones and recognition</div><h2>Achievements & <span class="blue">Recognition</span></h2></div><div class="grid">
+<article class="card"><div class="icon">🏅</div><h3>Best in Cadet Drills</h3><span class="tag">2026</span><p>I reported receiving recognition for Best in Cadet Drills associated with the Accra Technical University SRC 68th-led administration. Confirm the exact award wording against the original certificate before formal use.</p></article>
+<article class="card"><div class="icon">💃</div><h3>Best Cultural Dancer of the Year</h3><span class="tag">2014</span><p>Recognition during my primary school years, reflecting an early interest in culture and creative expression.</p></article>
+<article class="card"><div class="icon">🌿</div><h3>Evergreen Club Initiative</h3><p>Helped establish a school club focused on gardening, watering flowers and maintaining a clean school environment.</p></article>
+</div></div></section>
+<section id="volunteering"><div class="container"><div class="section-heading"><div class="eyebrow">Service and community</div><h2>Volunteering & <span class="blue">Community</span></h2><p>I value opportunities to contribute, learn from others and support activities that create positive experiences.</p></div><div class="grid">
+<article class="card"><div class="icon">🤖</div><h3>Enjoy AI Event</h3><span class="tag">Media Volunteer | 2026</span><p>Participated in media volunteering activities connected with Enjoy AI, including capturing video content. This helped me develop my interest in communication and event media.</p></article>
+<article class="card"><div class="icon">🤝</div><h3>My Volunteering Goals</h3><p>I am interested in youth development, education, technology, environmental initiatives and community projects, and want to contribute wherever I can make a meaningful difference.</p></article>
+</div></div></section>
+<section class="soft" id="skills"><div class="container"><div class="section-heading"><div class="eyebrow">What I am developing</div><h2>Skills & <span class="blue">Interests</span></h2><p>Areas I am interested in developing through education, practice and real-world experience.</p></div><div class="grid">
+<article class="card"><div class="icon">⚙️</div><h3>Engineering & Technical</h3><p>Mechanical engineering, automotive systems, practical technical learning, problem-solving and sustainable technology.</p></article>
+<article class="card"><div class="icon">🎖️</div><h3>Leadership & Teamwork</h3><p>Cadet conducting, discipline, coordination, taking responsibility, supporting a team and leading by example.</p></article>
+<article class="card"><div class="icon">📸</div><h3>Creative Media</h3><p>Photography, videography, video content, music, creative communication and digital media.</p></article>
+<article class="card"><div class="icon">🌍</div><h3>Personal Development</h3><p>Continuous learning, communication, community service, adaptability and professional relationships.</p></article>
+</div><div class="pills"><span class="pill">Mechanical Engineering</span><span class="pill">Leadership</span><span class="pill">Teamwork</span><span class="pill">Cadets</span><span class="pill">Volunteering</span><span class="pill">Photography</span><span class="pill">Videography</span><span class="pill">Music</span><span class="pill">Creative Media</span></div></div></section>
+<section id="creative"><div class="container"><div class="section-heading"><div class="eyebrow">My creative side</div><h2>Creative <span class="blue">Work</span></h2><p>I enjoy music, photography, videography and digital creativity. These interests let me express ideas and tell stories.</p></div><div class="grid">
+<article class="card"><div class="icon">🎵</div><h3>Music</h3><p>I create music under the name Hpluse de Younger and am interested in songwriting, recording and connecting with listeners.</p><a class="btn btn-outline" href="https://audiomack.com/hpluse-de-younger" target="_blank" rel="noopener">Listen on Audiomack</a></article>
+<article class="card"><div class="icon">📷</div><h3>Photography</h3><p>I want to improve my ability to capture people, events and meaningful moments through visual storytelling.</p><a class="btn btn-outline" href="https://www.instagram.com/lifeofadreamchaser01/" target="_blank" rel="noopener">Visit Instagram</a></article>
+<article class="card"><div class="icon">🎥</div><h3>Videography</h3><p>I am interested in recording videos, covering events and learning more about visual production and editing.</p><a class="btn btn-outline" href="https://www.tiktok.com/@hplusedeyounger1" target="_blank" rel="noopener">View TikTok</a></article>
+<article class="card"><div class="icon">🛠️</div><h3>Engineering Projects</h3><p>I am interested in practical mechanical engineering and technology projects, sustainable equipment, automated systems and solving everyday problems.</p><p class="note">Project details can be added as completed work becomes available.</p></article>
+</div></div></section>
+<section class="soft" id="goals"><div class="container"><div class="section-heading"><div class="eyebrow">Looking ahead</div><h2>Goals & <span class="blue">Vision</span></h2><p>My aim is to combine engineering, creativity, leadership and innovation to build a meaningful career and contribute to society.</p></div><div class="grid">
+<article class="card"><div class="icon">🎓</div><h3>Academic Goals</h3><p>Complete my BTech in Mechanical Engineering, strengthen my technical knowledge and pursue relevant certifications and further studies as opportunities allow.</p></article>
+<article class="card"><div class="icon">⚙️</div><h3>Engineering Career</h3><p>Build a career in mechanical engineering and contribute to useful, innovative and sustainable engineering solutions.</p></article>
+<article class="card"><div class="icon">🎬</div><h3>Creative Entrepreneurship</h3><p>Grow my interests in music, photography, videography and digital work into opportunities for collaboration and entrepreneurship.</p></article>
+<article class="card"><div class="icon">🌱</div><h3>Leadership & Social Impact</h3><p>Continue serving in leadership roles, supporting youth development and participating in initiatives that benefit communities.</p></article>
+</div><div class="contact-box" style="margin-top:22px"><h3>My Five-Year Vision</h3><p>To become a skilled mechanical engineer, grow as a creative artist and media enthusiast, build strong professional relationships and make a positive impact in my community and beyond.</p><p><strong class="blue">My guiding motto: Victory Through Harmony.</strong></p></div></div></section>
+<section id="contact"><div class="container"><div class="section-heading"><div class="eyebrow">Let's connect</div><h2>Contact <span class="blue">Me</span></h2><p>I welcome opportunities to learn, collaborate, volunteer and build professional connections.</p></div><div class="grid">
+<div class="contact-box"><h3>Get in Touch</h3><div class="contact-item"><strong>📧 Email</strong><a href="mailto:kumidaniel23@gmail.com">kumidaniel23@gmail.com</a></div><div class="contact-item"><strong>📱 WhatsApp</strong><a href="https://wa.me/233547595316" target="_blank" rel="noopener">+233 54 759 5316</a></div><div class="contact-item"><strong>☎️ Additional Phone</strong><a href="tel:+233208864316">+233 20 886 4316</a></div><div class="buttons"><a class="btn" href="https://wa.me/233547595316" target="_blank" rel="noopener">Message on WhatsApp</a><a class="btn btn-outline" href="mailto:kumidaniel23@gmail.com">Send Email</a></div></div>
+<div class="card"><h3>Connect With Me Online</h3><p>Follow my journey across professional networking, social media and music platforms.</p><div class="social-grid">
+<a class="social-link" href="https://www.linkedin.com/in/daniel-kumi-259965373/" target="_blank" rel="noopener"><strong>💼 LinkedIn</strong><span>Professional profile</span></a>
+<a class="social-link" href="https://www.tiktok.com/@hplusedeyounger1" target="_blank" rel="noopener"><strong>🎬 TikTok</strong><span>@hplusedeyounger1</span></a>
+<a class="social-link" href="https://www.facebook.com/profile.php?id=100085393536366" target="_blank" rel="noopener"><strong>📘 Facebook</strong><span>Visit my profile</span></a>
+<a class="social-link" href="https://www.instagram.com/lifeofadreamchaser01/" target="_blank" rel="noopener"><strong>📸 Instagram</strong><span>Creative journey</span></a>
+<a class="social-link" href="https://x.com/hpluse2" target="_blank" rel="noopener"><strong>𝕏 X</strong><span>@hpluse2</span></a>
+<a class="social-link" href="https://audiomack.com/hpluse-de-younger" target="_blank" rel="noopener"><strong>🎵 Audiomack</strong><span>My music</span></a>
+</div></div></div><p class="note" style="margin-top:15px">Please use the relevant platform to connect with me.</p></div></section>
+</main>
+<footer><div class="container"><p>© <span id="year"></span> Daniel Kumi (Hpluse de Younger). Built with purpose, creativity and ambition.</p><a class="blue" href="#home">Back to Top ↑</a></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+function downloadCV(){
+ const cv = `DANIEL KUMI (Hpluse de Younger)\nMechanical Engineering Student\nAccra Technical University | Level 300\nEmail: kumidaniel23@gmail.com\nWhatsApp: +233 54 759 5316\nLocation: Accra, Ghana\n\nEDUCATION\nAccra Technical University — BTech Mechanical Engineering (2025–Present), expected 2028\nAsuansi Technical Institute — Mechanical Engineering Technology (2021–2023)\nSaint Barnabas Anglican JHS (2018–2020)\n\nEXPERIENCE & LEADERSHIP\nAir Force Cadet Regimental Band Conductor, Accra Technical University\nParticipated in the 6th March Independence Day parade as Regimental Band Conductor\nToyota Ghana internship, East Legon (October–November 2025)\nFirst Assistant Grounds Prefect; helped establish Evergreen Club\n\nVOLUNTEERING\nEnjoy AI media volunteering, including video capture\n\nACHIEVEMENTS\nBest in Cadet Drills (2026; verify exact award wording)\nBest Cultural Dancer of the Year (2014)\n\nINTERESTS\nMechanical engineering, leadership, teamwork, volunteering, music, photography and videography\n\nSOCIAL LINKS\nLinkedIn: https://www.linkedin.com/in/daniel-kumi-259965373/\nTikTok: https://www.tiktok.com/@hplusedeyounger1\nFacebook: https://www.facebook.com/profile.php?id=100085393536366\nInstagram: https://www.instagram.com/lifeofadreamchaser01/\nX: https://x.com/hpluse2\nAudiomack: https://audiomack.com/hpluse-de-younger`;
+ const blob=new Blob([cv],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='Daniel_Kumi_CV.txt';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const target=document.getElementById(a.getAttribute('href').slice(1));if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth',block:'start'});}}));
+</script>
+</body>
+</html>
